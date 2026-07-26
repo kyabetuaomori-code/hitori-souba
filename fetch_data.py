@@ -15,6 +15,7 @@ TICKERS = {
     "usdjpy": "JPY=X",           # ドル円
     "vix": "^VIX",               # VIX指数
     "us10y": "^TNX",             # 米10年債利回り (実際の値の10倍で返る)
+    "gold": "GC=F",              # 金先物 (COMEX, USD/oz)
 }
 
 LABELS = {
@@ -22,6 +23,7 @@ LABELS = {
     "usdjpy": "USD/JPY",
     "vix": "VIX",
     "us10y": "米10年債利回り",
+    "gold": "金 (NY先物)",
 }
 
 
