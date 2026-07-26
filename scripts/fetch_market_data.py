@@ -64,11 +64,21 @@ SECTORS_JP = [
     ("1633", "1633.T", "不動産"),
 ]
 
+INDEX_US = [
+    ("DJI", "^DJI", "NYダウ"),
+]
+
+INDEX_JP = [
+    ("N225", "^N225", "日経平均"),
+]
+
 GROUPS = {
     "fx_majors": FX_MAJORS,
     "fx_em": FX_EM,
     "sectors_us": SECTORS_US,
     "sectors_jp": SECTORS_JP,
+    "index_us": INDEX_US,
+    "index_jp": INDEX_JP,
 }
 
 OUTPUT_FILE = "market_data.json"
@@ -87,10 +97,7 @@ def fetch_group(items):
     result = {}
     for code, ticker, name in items:
         try:
-            if len(tickers) == 1:
-                closes = data["Close"].dropna()
-            else:
-                closes = data[ticker]["Close"].dropna()
+            closes = data[ticker]["Close"].dropna()
         except KeyError:
             continue
         if closes.empty:
