@@ -1,0 +1,29 @@
+{
+  "updated_at": "2026-07-26T09:00:14.894085Z",
+  "readings": {
+    "nikkei_futures": {
+      "label": "日経225先物",
+      "value": 64395.0,
+      "change": -1015.0,
+      "pct": -1.55
+    },
+    "usdjpy": {
+      "label": "USD/JPY",
+      "value": 163.79,
+      "change": 0.71,
+      "pct": 0.44
+    },
+    "vix": {
+      "label": "VIX",
+      "value": 18.58,
+      "change": -0.12,
+      "pct": -0.64
+    },
+    "us10y": {
+      "label": "米10年債利回り",
+      "value": 0.47,
+      "change": -0.0,
+      "pct": -0.51
+    }
+  }
+}
