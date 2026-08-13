@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-08-12T09:43:49.436900Z",
+  "updated_at": "2026-08-13T05:49:48.458113Z",
   "readings": {
     "nikkei_futures": {
       "label": "日経225先物",
-      "value": 68010.0,
-      "change": 860.0,
-      "pct": 1.28
+      "value": 68560.0,
+      "change": 230.0,
+      "pct": 0.34
     },
     "usdjpy": {
       "label": "USD/JPY",
-      "value": 159.07,
-      "change": -0.09,
-      "pct": -0.06
+      "value": 159.33,
+      "change": 0.07,
+      "pct": 0.04
     },
     "vix": {
       "label": "VIX",
-      "value": 15.38,
-      "change": 0.1,
-      "pct": 0.65
+      "value": 14.55,
+      "change": -0.73,
+      "pct": -4.78
     },
     "us10y": {
       "label": "米10年債利回り",
       "value": 0.47,
       "change": -0.0,
-      "pct": -0.32
+      "pct": -0.04
     },
     "gold": {
       "label": "金 (NY先物)",
-      "value": 4474.1,
-      "change": 91.1,
-      "pct": 2.08
+      "value": 4456.1,
+      "change": 47.2,
+      "pct": 1.07
     }
   }
 }
