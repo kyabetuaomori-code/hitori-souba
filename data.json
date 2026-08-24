@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-24T03:32:44.004284Z",
+  "updated_at": "2026-08-24T05:55:23.883364Z",
   "readings": {
     "nikkei_futures": {
       "label": "日経225先物",
-      "value": 65785.0,
-      "change": -130.0,
-      "pct": -0.2
+      "value": 65570.0,
+      "change": -345.0,
+      "pct": -0.52
     },
     "usdjpy": {
       "label": "USD/JPY",
-      "value": 158.91,
+      "value": 158.92,
       "change": 0.03,
       "pct": 0.02
     },
@@ -27,9 +27,9 @@
     },
     "gold": {
       "label": "金 (NY先物)",
-      "value": 4695.2,
-      "change": 71.1,
-      "pct": 1.54
+      "value": 4690.6,
+      "change": 66.5,
+      "pct": 1.44
     }
   }
 }
