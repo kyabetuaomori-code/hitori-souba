@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-09-04T02:08:29.015739Z",
+  "updated_at": "2026-09-04T07:12:24.742209Z",
   "readings": {
     "nikkei_futures": {
       "label": "日経225先物",
-      "value": 64675.0,
-      "change": -60.0,
-      "pct": -0.09
+      "value": 64930.0,
+      "change": 370.0,
+      "pct": 0.57
     },
     "usdjpy": {
       "label": "USD/JPY",
-      "value": 155.85,
-      "change": -3.07,
-      "pct": -1.93
+      "value": 156.36,
+      "change": -2.57,
+      "pct": -1.61
     },
     "vix": {
       "label": "VIX",
@@ -27,9 +27,9 @@
     },
     "gold": {
       "label": "金 (NY先物)",
-      "value": 4526.3,
-      "change": 160.0,
-      "pct": 3.66
+      "value": 4509.9,
+      "change": 18.2,
+      "pct": 0.41
     }
   }
 }
