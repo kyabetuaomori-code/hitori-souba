@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T02:01:44.117472Z",
+  "updated_at": "2026-09-07T07:17:33.060540Z",
   "readings": {
     "nikkei_futures": {
       "label": "日経225先物",
@@ -9,9 +9,9 @@
     },
     "usdjpy": {
       "label": "USD/JPY",
-      "value": 156.02,
-      "change": 0.36,
-      "pct": 0.23
+      "value": 155.82,
+      "change": 0.16,
+      "pct": 0.1
     },
     "vix": {
       "label": "VIX",
